@@ -1,0 +1,267 @@
+/*Menu*/
+
+#menu{
+	width: 100%;
+	height: 150px;
+	color: white;
+	display: flex;
+  	align-items: center;
+  	justify-content: center;
+}
+
+/*Butons*/
+
+.StartButton{
+	width: 25%;
+	margin: auto;
+  	padding: 10px;
+  	text-align: center;
+  	text-transform: uppercase;
+  	font-size: 16px;
+  	background-color: transparent;
+  	border: 2px solid #5d5d5d;
+  	border-radius: 0px;
+  	color: white;
+  	transition-duration: 0.4s;
+}
+.StartButton:hover{
+	width: 27%;
+	margin: auto;
+  	padding: 10px;
+  	text-align: center;
+  	text-transform: uppercase;
+  	font-size: 18px;
+  	background-color: transparent;
+  	border: 2px solid white;
+  	border-radius: 0px;
+  	color: white;
+}
+.NavbarButton1{
+	outline: none;
+	border: none;
+	font-size: 16px;
+    background-color:transparent;
+    color:#676767;
+  	margin: 25px;
+  	transition-duration: 0.4s;
+}
+
+.NavbarButton1:hover{
+	outline: none;
+	border: none;
+	font-size: 18px;
+    background-color:transparent;
+    color:white;
+  	margin: 25px;
+}
+
+.NavbarButton2{
+	outline: none;
+	font-size: 16px;
+    background-color:transparent;
+    color:#5d5d5d;
+    margin: 25px;
+  	padding:10px;
+  	border-radius: 0px;
+	border: 2px solid #5d5d5d;
+	transition-duration: 0.4s;
+}
+
+.NavbarButton2:hover{
+	outline: none;
+	font-size: 18px;
+    background-color:transparent;
+    color:white;
+    margin: 25px;
+  	padding:10px;
+  	border: 2px solid ;
+  	border-radius: 0px;
+}
+
+
+/*}end of start Button */
+
+/*Background*/
+
+body{
+	background-image: url('IMAGES/website20.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+    padding:0;
+    margin:0;
+    width: 100%;
+	height:100%;
+	/*height: 100vh;*/
+}	
+
+/*End of Background*/
+
+h1{
+	font-size: 50px;
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+	font-weight: 700;
+	color: white;
+	text-align: center;
+	padding: 30px;
+	transition-duration: 0.4s;
+}
+h1:hover{
+	font-size: 52px;
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+	font-weight: 700;
+	color: #5d5d5d;
+	text-align: center;
+}
+h2{
+	font-size: 40px;
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+	font-weight: 700;
+	color: #5d5d5d;
+	transition-duration: 0.4s;
+}
+h2:hover{
+	font-size: 42px;
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+	font-weight: 700;
+	color: white;
+}
+
+/*End of Text*/
+
+/*Divs*/
+#OuterMostBox{
+  	margin: auto;
+  	width: 100%;
+  	height: 150;
+  	background-color: transparent;
+  	min-height: 100vh;
+3
+text-align: center
+
+}
+#Inner1Box{
+	margin: auto;
+  	width: 100%;
+  	height: 50%;
+  	/*background-color: #737373;*/
+  	background-color: transparent;
+  	text-align: center;
+}
+#Inner2Box{
+	margin: auto;
+  	width: 100%;
+  	height: 50%;
+  	/*background-color: #737373;*/
+  	background-color: transparent;
+  	text-align: center;
+}
+
+#Footer{
+	min-height: 25vh;
+	width:100%;
+
+	background-color: black;
+	color: white;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	left: 0;
+	bottom:0;
+}
+
+.FooterButtons{
+	width: 70%;
+	margin: 20px;
+  	text-align: center;
+  	text-transform: uppercase;
+  	font-size: 16px;
+  	background-color: transparent;
+  	border: 2px solid #5d5d5d;
+  	border-radius: 0px;
+  	color: white;
+  	transition-duration: 0.4s;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center
+}
+
+.FooterButtons:hover{
+	width: 70%;
+	margin: 20px;
+  	text-align: center;
+  	text-transform: uppercase;
+  	font-size: 16px;
+  	background-color: transparent;
+  	border: 2px solid white;
+  	border-radius: 0px;
+  	color: white;
+  	transition-duration: 0.4s;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center
+}
+#Footer p{
+	margin: 0;
+	line-height: 60px;
+	font-size: 20px;
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+	font-weight: 700;
+	color: white;
+	padding: 10px;
+	transition-duration: 0.4s;
+}
+
+#Footer p:hover{
+	margin: 0;
+	line-height: 60px;
+	font-size: 20px;
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+	font-weight: 700;
+	color: #5d5d5d;
+	padding: 10px;
+	transition-duration: 0.4s;
+}
+#ImageButtons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+
+.ImagesFooter{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+#ImageLink{
+  width: 40px;
+  height: auto;
+}
+#ImageLink:hover{
+  width: 40px;
+  height: auto;
+  opacity: 0.5;
+}
+
+/*Game Panel Stuff*/
+#GamePanel{
+	display: none;
+	width: 50%;
+	margin: auto;
+	padding: 20px;
+	background-color: rgba(0,0,0,0.7);
+	border: 2px solid #5d5d5d;
+	color: white;
+}
+/*end of game pannel*/
