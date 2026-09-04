@@ -265,3 +265,10 @@ text-align: center
 	color: white;
 }
 /*end of game pannel*/
+
+#GameBox{
+	width: 50%;
+	margin: auto;
+	border: 2px solid #5d5d5d;
+	color: white;
+}

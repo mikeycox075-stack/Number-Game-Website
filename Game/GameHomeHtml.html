@@ -1,7 +1,6 @@
 <html>
 <head>
 <link rel="stylesheet" type="text/css" href="CSS\GameCss.css">
-<script src="JAVA\GameJava.js"></script>
 </head>
 
 <body>
@@ -17,6 +16,13 @@
 		<div id="Inner1Box">
 			<h2> Please Press the Button to Play </h2>
 			<button type="button" onclick="StartGame()" class="StartButton">Start Game</button>
+			<div id="GameBox">
+				<input type ="text" id="userInput" placeholder="TypeAnswer..."
+				>
+				<button onclick="StartGameMechanics()">
+					Send
+				</button>
+			</div>
 		</div>
 	</div>
 <div id="Footer">
@@ -31,6 +37,7 @@
 			<img src="CSS\IMAGES\GitHub.png" alt="GitHubLink" id="ImageLink">
 		</div>
 	</div>
+	<script src="JAVA\GameJava.js"></script>
 </div>
 </body>
 </html>
