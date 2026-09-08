@@ -130,6 +130,24 @@ h2:hover{
 	color: white;
 }
 
+P{
+ font-size: 30px;
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+	font-weight: 700;
+	color: #5d5d5d;
+	transition-duration: 0.4s;
+}
+
+P:hover{
+	font-size: 32px;
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+	font-weight: 700;
+	color: white;
+	transition-duration: 0.4s;
+}
+
 /*End of Text*/
 
 /*Divs*/
@@ -139,8 +157,7 @@ h2:hover{
   	height: 150;
   	background-color: transparent;
   	min-height: 100vh;
-3
-text-align: center
+	text-align: center
 
 }
 #Inner1Box{
@@ -160,13 +177,34 @@ text-align: center
   	text-align: center;
 }
 
+#Inner1BoxAbout{
+		margin: auto;
+  	width: 500px;
+  	height: 550px;
+  	/*background-color: #737373;*/
+  	background-color: transparent;
+  	text-align: center;
+  	padding:10px;
+  	border-radius: 0px;
+		border: 2px solid #5d5d5d;
+}
+#Inner1BoxHowToPlay{
+	margin: auto;
+  	width: 700px;
+  	height: 800px;
+  	/*background-color: #737373;*/
+  	background-color: transparent;
+  	text-align: center;
+  	padding:10px;
+  	border-radius: 0px;
+		border: 2px solid #5d5d5d;
+}
+
 #Footer{
 	min-height: 25vh;
 	width:100%;
-
 	background-color: black;
 	color: white;
-
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -213,7 +251,7 @@ text-align: center
 	font-family: 'Montserrat', sans-serif;
 	text-transform: uppercase;
 	font-weight: 700;
-	color: white;
+	color: #5d5d5d;
 	padding: 10px;
 	transition-duration: 0.4s;
 }
@@ -225,7 +263,7 @@ text-align: center
 	font-family: 'Montserrat', sans-serif;
 	text-transform: uppercase;
 	font-weight: 700;
-	color: #5d5d5d;
+	color: white;
 	padding: 10px;
 	transition-duration: 0.4s;
 }
@@ -247,13 +285,13 @@ text-align: center
 #ImageLink{
   width: 40px;
   height: auto;
+  opacity: 0.5;
 }
 #ImageLink:hover{
   width: 40px;
   height: auto;
-  opacity: 0.5;
+  opacity: 1;
 }
-
 /*Game Panel Stuff*/
 #GamePanel{
 	display: none;
@@ -264,11 +302,121 @@ text-align: center
 	border: 2px solid #5d5d5d;
 	color: white;
 }
-/*end of game pannel*/
+
+#Hidden{
+		width: 360px;
+		margin: 30px auto 0 auto;
+		display: none;
+		transition-duration: 0.4s;
+}
+
+.chat-container {
+    width: 360px;
+    height: 400px;
+    margin: auto;
+
+    background-color: transparent;
+    border: 2px solid #5d5d5d;
+		color: white;
+		border-radius: 0px;
+
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+
+    display: flex;
+  	align-items: stretch;
+  	justify-content: flex-start;
+  	transition-duration: 0.4s;
+}
+.chat-container:hover {
+    width: 360px;
+    height: 400px;
+    margin: auto;
+    border: 2px solid white;
+	color: white;
+	border-radius: 0px;
+
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+
+    display: flex;
+  	align-items: stretch;
+  	justify-content: flex-start;
+  	transition-duration: 0.4s;
+}
 
 #GameBox{
-	width: 50%;
+	flex: 1;
+	width: 100%;
+	overflow-y: auto;
+	padding: 10px;
 	margin: auto;
-	border: 2px solid #5d5d5d;
-	color: white;
+	box-sizing: border-box;
 }
+
+.chat-header {
+		height:80px;
+		width: 100%;
+    font-weight: bold;
+    background-color: transparent;
+    display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	transition-duration: 0.4s;
+    
+}
+#chat-box {
+    flex: 1;
+    overflow-y: auto;
+    display: flex;            
+    flex-direction: column;
+    width:360px;
+    border: 2px solid #5d5d5d;
+		color: white;
+		border-radius: 0px;
+		border-left: none;
+		border-right: none;
+		transition-duration: 0.4s;
+}
+
+
+.input-area {
+    padding: 10px;
+    border-top: 2px solid #5d5d5d;
+    border-left: none;
+	border-right: none;
+	border-top:none;
+    flex-shrink: 0;
+    width:100%;
+    transition-duration: 0.8s;
+}
+
+#UserInput{
+	background-color: transparent;
+	color:white;
+	outline: none;
+	border:2px solid #5d5d5d;
+	border-radius: 2px;
+	width:50%;
+	transition-duration: 0.4s;
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+}
+#UserInput:hover{
+	background-color: transparent;
+	color:white;
+	outline: none;
+	border:2px solid white;
+	border-radius: 2px;
+	width:50%;
+	transition-duration: 0.4s;
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+}
+
+
+
+
+/*end of game pannel*/

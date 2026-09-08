@@ -15,13 +15,19 @@
 
 		<div id="Inner1Box">
 			<h2> Please Press the Button to Play </h2>
-			<button type="button" onclick="StartGame()" class="StartButton">Start Game</button>
-			<div id="GameBox">
-				<input type ="text" id="userInput" placeholder="TypeAnswer..."
-				>
-				<button onclick="StartGameMechanics()">
-					Send
-				</button>
+			<button type="button" onclick="StartGame1()" class="StartButton">Start Game</button>
+			<div id="Hidden">
+				<div class="chat-container">
+				    <div class="chat-header">
+				        <p> The Number Guessing Game </p>
+				    </div>
+						<div id="GameBox">
+						</div>
+						<div class="input-area">
+							<input type ="text" id="userInput" placeholder="TypeAnswer...">
+							<button onclick="StartGameMechanics()">Send</button>
+						</div>
+				</div>
 			</div>
 		</div>
 	</div>
@@ -37,8 +43,8 @@
 			<img src="CSS\IMAGES\GitHub.png" alt="GitHubLink" id="ImageLink">
 		</div>
 	</div>
-	<script src="JAVA\GameJava.js"></script>
 </div>
+<script src="JAVA\GameJava.js"></script>
 </body>
 </html>
 </style>
