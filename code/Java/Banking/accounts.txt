@@ -1,7 +1,0 @@
-AdminUser,Address1,07123456789,admin,123,1500.0,Adult,Admin
-Bob,Address2,07222222222,john@email.com,123,900.0,Child,User
-JaneTeen,Address3,07333333333,jane@email.com,123,309.0,Teen,User
-MichaelUser,Address4,07444444444,michael@email.com,abc,750.0,Adult,User
-Sam,2 Lake View Court,07456 433215,SamLakeView@gmail.com,123,1500.0,Adult,User
-Brian,Cox,07345 667234,BrainCreek@gmail.com,123,1500.0,Adult,User
-test,test,t,t,t,1.0,t,SuperAdmin
