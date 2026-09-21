@@ -6,7 +6,7 @@ I converted into a web page to test myself over the summer.
 How to Use the Website:
 1. Download all the files and sort them into the correct file Path:
 2. Click and Run the GameHomeHtml.html file and run it in your browser.
-3. Then use it like normal.
+3. Then download it like normal. 
    ====
   File Path
    ====
