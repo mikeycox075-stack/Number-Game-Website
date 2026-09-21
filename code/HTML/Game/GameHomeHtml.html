@@ -1,0 +1,49 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="CSS\GameCss.css">
+</head>
+
+<body>
+	<div id="menu">
+			<button onclick="location.href='GameHomeHtml.html'"class="NavbarButton1">Home</button>
+			<button onclick="location.href='About.html'" class="NavbarButton2">About</button>
+			<button onclick="location.href='HowToPlay.html'"class="NavbarButton2">How to Play</button>
+	</div> 
+	<div id="OuterMostBox">
+		<h1>Welcome to Number Guessing Game!</h1>
+
+
+		<div id="Inner1Box">
+			<h2> Please Press the Button to Play </h2>
+			<button type="button" onclick="StartGame1()" class="StartButton">Start Game</button>
+			<div id="Hidden">
+				<div class="chat-container">
+				    <div class="chat-header">
+				        <p> The Number Guessing Game </p>
+				    </div>
+						<div id="GameBox">
+						</div>
+						<div class="input-area">
+							<input type ="text" id="userInput" placeholder="TypeAnswer...">
+							<button onclick="StartGameMechanics()">Send</button>
+						</div>
+				</div>
+			</div>
+		</div>
+	</div>
+<div id="Footer">
+	<p>© 2026 Number Guessing Game</p>
+	<div id="ImageButtons">
+		<div class="ImagesFooter">
+			<button type="button" onclick="OpenLinkedIn()" class="FooterButtons">LinkedIn</button>
+			<img src="CSS\IMAGES\LinkedIn.png" alt="LinkedIn Link" id="ImageLink">
+		</div>
+		<div class="ImagesFooter">
+			<button type="button" onclick="OpenGitHub()" class="FooterButtons">GitHub</button>
+			<img src="CSS\IMAGES\GitHub.png" alt="GitHubLink" id="ImageLink">
+		</div>
+	</div>
+</div>
+<script src="JAVA\GameJava.js"></script>
+</body>
+</html>
